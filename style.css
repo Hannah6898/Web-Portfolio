@@ -18,14 +18,7 @@ h2 {
   font-weight: 600px;
 }
 
-img {
-  transition: 0.3s ease ;
-}
-img:hover {
-  transform: scale(0.8);
-  -webkit-transform: scale(0.8);
-  -ms-transform: scale(0.8);
-}
+
 
 i { 
   font-size: 150px;
@@ -46,7 +39,10 @@ button {
   border-style: none;
   text-transform: uppercase !important;
   padding: 12px 25px;
-  margin-top: 30px !important;
+}
+
+.submit {
+margin-top: 30px !important;
 }
 
 @media (max-width: 900px) {
@@ -143,7 +139,40 @@ button {
   margin: 5rem 0 0 5rem;
 }
 
+.main-project-img:hover {
+animation-name: scale-down-center;
+animation-duration: 0.4s;
+animation-fill-mode: forwards;
+}
 
+
+@keyframes scale-down-center {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.5);
+  }
+}
+
+.main-project-img {
+  animation-name: scale-up-center;
+  animation-duration: 0.4s;
+  animation-fill-mode: forwards;
+}
+@keyframes scale-up-center {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.see-more {
+  display: block !important;
+  margin: 0, auto !important;
+}
 
 
 
