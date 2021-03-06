@@ -34,11 +34,11 @@ button {
   padding: 12px 25px;
 }
 
-.nav-name, .navigation-bar, .contact, section {
+.nav-name, .navigation-bar, .link, section {
   font-family: 'Montserrat', sans-serif;
 }
 
-.nav-name, h2, .contact-details p {
+.nav-name, h2, .link{
   color: #1a1b1f;
 }
 
@@ -162,12 +162,9 @@ animation-fill-mode: forwards;
   background: #f4f4f4;
   padding: 90px 0 150px 70px;
   margin: 50px 0 20px 0;
-  display: flex;
 }
 
-.contact-icons {
-justify-content: center;
-}
+
 
 
 
