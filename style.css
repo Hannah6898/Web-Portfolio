@@ -38,6 +38,14 @@ button {
   text-transform: uppercase !important;
   padding: 12px 25px;
 }
+.button {
+  margin-top: 20px;
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+}
 
 .nav-name,
 .navigation-bar,
@@ -148,11 +156,6 @@ section {
   }
 }
 
-.see-more button {
-  display: block;
-  margin: 50px auto;
-}
-
 .html {
   color: #dd4b25;
 }
@@ -209,7 +212,6 @@ section {
 #home {
   height: 650px;
   display: inline-block;
-  width: 100%;
 }
 
 #projects {
