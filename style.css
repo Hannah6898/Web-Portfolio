@@ -156,6 +156,27 @@ section {
   }
 }
 
+.main-project-img:hover {
+  cursor: pointer;
+  animation: scale-down-center;
+  animation-duration: 0.4s;
+  animation-fill-mode: both;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out-quad;
+}
+
+@keyframes scale-down-center {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
 .html {
   color: #dd4b25;
 }
