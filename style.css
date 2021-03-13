@@ -132,12 +132,6 @@ section {
   text-decoration: none;
 }
 
-.project-title:hover {
-  text-decoration: underline;
-  cursor: pointer;
-  color: #1a1b1f;
-}
-
 .project-img {
   animation: scale-in-center;
   animation-duration: 0.5s;
