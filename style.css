@@ -2,6 +2,11 @@ html {
   scroll-behavior: smooth;
 }
 
+.container-fluid {
+  font-family: "Montserrat", sans-serif;
+  color: #1a1b1f;
+}
+
 header {
   position: fixed;
   background: white;
@@ -12,7 +17,11 @@ header {
   box-shadow: 0 6px 4px -4px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
+section {
+  margin: 5rem 0 0 5rem;
+}
+
+h2 .heading {
   font-size: 36px;
   line-height: 34px;
   font-weight: 600px;
@@ -20,13 +29,6 @@ h2 {
 
 .skills-icon {
   font-size: 150px;
-}
-
-h6 {
-  font-size: 12px !important;
-  text-transform: uppercase;
-  line-height: 20px !important;
-  font-weight: 500px !important;
 }
 
 button {
@@ -38,27 +40,9 @@ button {
   text-transform: uppercase !important;
   padding: 12px 25px;
 }
-.button {
+.project-btn {
   margin-top: 20px;
   text-align: center;
-}
-
-h5 {
-  text-align: center;
-}
-
-.nav-name,
-.navigation-bar,
-.link,
-section {
-  font-family: "Montserrat", sans-serif;
-}
-
-.nav-name,
-h2,
-.link,
-.project-title {
-  color: #1a1b1f;
 }
 
 .nav-name {
@@ -74,11 +58,6 @@ h2,
   font-size: 15px !important;
   line-height: 20px !important;
   color: #32343a;
-}
-
-.contact,
-section {
-  margin: 5rem 0 0 5rem;
 }
 
 @media (max-width: 900px) {
@@ -121,54 +100,8 @@ section {
   padding-bottom: 15px;
 }
 
-.main-project-img {
-  z-index: 1;
-}
-
-.survey-title {
-  padding-top: 25px;
-}
-.project-title {
-  text-decoration: none;
-}
-
-.project-img {
-  animation: scale-in-center;
-  animation-duration: 0.5s;
-}
-
-@keyframes scale-in-center {
-  0% {
-    -webkit-transform: scale(0);
-    transform: scale(0);
-    opacity: 1;
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-
-.main-project-img:hover {
-  cursor: pointer;
-  animation: scale-down-center;
-  animation-duration: 0.4s;
-  animation-fill-mode: both;
-  animation-direction: normal;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in-out-quad;
-}
-
-@keyframes scale-down-center {
-  0% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-  100% {
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9);
-  }
+img {
+  width: 55% !important;
 }
 
 .html {
@@ -193,11 +126,6 @@ section {
 
 .card-title {
   font-size: 16px;
-}
-
-.card {
-  border: none !important;
-  z-index: 1;
 }
 
 .skills {
@@ -228,7 +156,7 @@ section {
 }
 
 #projects {
-  height: 650px;
+  height: 1000px;
   display: inline-block;
 }
 
